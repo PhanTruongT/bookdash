@@ -1,3 +1,3 @@
-# Project 1
+# Book Dash
 
-Web Programming with Python and JavaScript
+Basic book review website
