@@ -1,3 +1,53 @@
-body {
-  background-color: lightblue;
+@font-face
+{
+  font-family: 'Uni-Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../font/uni-sans.otf') format('opentype');
 }
+
+
+body {
+  font-size: 14px;
+  font-family: "Uni-Sans","Open Sans",Arial,sans-serif;
+  background-color: #101314;
+}
+
+h1 {
+  display: block;
+  font-size: 3em;
+  font-weight: 500;
+  text-align: center;
+  color: #f7f7f7;
+  margin-bottom: 0;
+
+  /* set text to be unselectable */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.header-aside {
+  display: block;
+  margin: 22px auto auto 16px;
+  height: 44px;
+  right: 7px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  z-index: 199;
+}
+
+#logo {
+  height: auto; 
+  width: 2.3em;
+  display: inline-block;
+  vertical-align: -30px;
+  pointer-events: none;
+}
+
+
