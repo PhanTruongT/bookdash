@@ -54,12 +54,42 @@ h1 {
   pointer-events: none;
 }
 
+#search-form-wrap {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+}
+
+
 #search-form {
   display: flex;
+  position: relative;
+  border-radius: 5px;
+  width: 50%;
+  height: 2.9em;
   background-color: #333333;
   border-color: #333333;
   box-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 
+#search-form-input {
+  display: block;
+  position: relative;
+  height: 2.545455em;
+  width: 100%;
+  margin-left: .7em;
+  margin-right: 5em;
+  color: #eeeeee;
+  background: none;
+  border-color: transparent;
+
+  font-family: Arial,sans-serif;
+  font-size: 1.8em;
+  top: -15px;
+}
+
+input:focus {
+  /* remove blue highlight around input box*/
+  outline: none;
 }
 
