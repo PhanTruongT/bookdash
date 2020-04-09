@@ -66,25 +66,31 @@ h1 {
 
 
 #side-bar-expand {
-  display: flex;
-  flex-direction: column;
+  display: block;
   position: absolute;
   right: 0px;
   top: 0px;
-
   height: 100%;
   width: 0px;
-  overflow-x: hidden;
+  overflow:hidden;
   background: #333333;
   box-shadow: 0 1px 8px rgba(0,0,0,0.1);
-
+  
 }
+
+#nav-menu-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
 
 #close-button-wrap {
   position: absolute;
   top: 13px;
   right: 13px;
   visibility: hidden;
+
 }
 
 
@@ -125,7 +131,7 @@ h1 {
   position: relative;
   height: 2.545455em;
   width: 100%;
-  margin-left: 10px;
+  margin-left: 12px;
   margin-right: 44px;
   color: #eeeeee;
   background: none;
