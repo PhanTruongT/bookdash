@@ -29,6 +29,10 @@ h1 {
   text-align: center;
   color: #f7f7f7;
   
+  
+}
+
+.unselectable {
   /* set text to be unselectable */
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -38,6 +42,7 @@ h1 {
   user-select: none;
   cursor: default;
 }
+
 
 #header-aside {
   display: flex;
@@ -56,6 +61,7 @@ h1 {
   font-size: 30px;
   height: 1.4em;
   width: 1.4em;
+  
 }
 
 .button-wrap:hover {
@@ -75,13 +81,21 @@ h1 {
   overflow:hidden;
   background: #333333;
   box-shadow: 0 1px 8px rgba(0,0,0,0.1);
-  
+  transition: width .15s;
+  white-space: nowrap;
 }
 
 #nav-menu-list {
   display: flex;
   flex-direction: column;
   height: 100%; 
+  margin-top: 6em;
+  align-items: center;
+
+  /* Override default ul padding */
+  padding-left: 0px;
+
+  
 }
 
 
@@ -89,11 +103,24 @@ h1 {
   position: absolute;
   top: 13px;
   right: 13px;
-  visibility: hidden;
-
+  
 }
 
+.sign-in-box {
 
+  color: #cccccc;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.15em;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+.la-user-circle
+{
+  position: relative;
+  top: 7px;
+  font-size: 2.1em;
+}
 
 
 
@@ -174,5 +201,4 @@ input:focus {
   fill: #222222;
   cursor: pointer;
 }
-
 
