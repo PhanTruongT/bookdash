@@ -167,7 +167,6 @@ input:focus {
 }
 
 
-
 #clear-button {
   display: flex;
   justify-content: center;
@@ -190,6 +189,7 @@ input:focus {
   outline: 0;
   vertical-align: -50%;
   justify-content: center;
+  cursor: pointer;
 }
 
 
@@ -222,5 +222,5 @@ input:focus {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  cursor: default;
+  
 }
