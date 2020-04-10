@@ -80,10 +80,16 @@ h1 {
 
 
 
+
+
 .top-nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-top: 13px;
+  padding-bottom: 7px;
+  border-radius: 4px 0px 0px 4px;
+  background: var(--highlight-grey);
 }
 
 #close-button-wrap {
@@ -92,11 +98,10 @@ h1 {
 }
 
 
-
 .sign-in-box {
   font-size: 1.15em;
+  bottom: 4px;
   font-weight: 600;
-  text-decoration: none;
   cursor: pointer;
 }
 .la-user-circle
@@ -107,34 +112,21 @@ h1 {
 }
 
 
-
 #nav-menu-list {
   display: flex;
   flex-direction: column;
-  height: 100%; 
-  margin-top: 4em;
+  height: 100%;
+
+  margin-top: 2.5em;
   align-items: center;
   list-style-type:none;
   justify-content: space-around;
   font-size: 1.6em;
   font-weight: 800;
-
-
-
-  /* Override default ul padding */
-  padding-left: 0px;
 }
 
-
-
-
-
-
-
-.nav-element {
-  /* Override ul default padding */
-  padding-inline-start: 0px;
-
+.settings-bar {
+  background: var(--highlight-grey);
 }
 
 
@@ -245,7 +237,7 @@ input:focus {
 
 /* Attributes */
 .shadow-box {
-  box-shadow: 0 1px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .unselectable {
@@ -262,4 +254,9 @@ input:focus {
 .nav-font {
   color: #cccccc;
   font-family: 'Catamaran', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
 }

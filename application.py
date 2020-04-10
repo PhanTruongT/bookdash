@@ -29,4 +29,11 @@ def index():
 def login():
     return render_template("login.html")
 
+@app.route("/about")
+def about():
+    return render_template("about.html")
 
+
+@app.route("/placeholder")
+def placeholder():
+    return render_template("placeholder.html")
