@@ -53,10 +53,10 @@
     <h1 class ="unselectable"><img id ="logo" src="static/img/Lissa.gif"> B o o k&nbsp&nbsp&nbsp D a s h</h1>
 
     <div id="search-form-wrap" class="shadow-box">
-      <form id="search-form" method="get" action="/">
+      <form onmouseout="setHighlight(0)" onmouseover="setHighlight(1)" id="search-form" method="get" action="/">
         <input onkeyup="checkClearButton()" type="text" id="search-form-input" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" name="search">
 
-        <i id="clear-button" class="las la-times"></i>
+        <i onclick="clearSearchInput()" id="clear-button" class="las la-times"></i>
 
         <button id="search-button">
           <svg id="search-icon" class="search-icon" viewBox="0 0 24 24">
