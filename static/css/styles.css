@@ -10,7 +10,7 @@
   --main-black: #101314;
   --main-white: #f7f7f7;
   --bar-black: #333333;
-  --main-grey: #4d4d4d;
+  --highlight-grey: #494949;
 }
 
 
@@ -59,7 +59,7 @@ h1 {
 }
 
 .button-wrap:hover {
-  background: var(--main-grey);
+  background: var(--highlight-grey);
   border-radius: 3px;
   cursor: pointer;
 }
@@ -174,7 +174,7 @@ input:focus {
   align-items: center;
   font-size: 1.4em;
   margin-right: 16px;
-  color: var(--main-white);
+  color: #919191;
   cursor: pointer;
 
   visibility: hidden;
