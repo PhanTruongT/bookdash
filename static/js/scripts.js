@@ -24,15 +24,19 @@ function checkClearButton() {
 
 }
 
+
+function settingsMenuToggle() {
+    document.getElementById("settings-bar-id").style.height = "50%";
+    document.getElementById("nav-menu-list").style.margin = "0.6em 0 0em 0"
+}
+
+
 function clearSearchInput() {
     document.getElementById("search-form").reset();
     document.getElementById("search-form-input").focus();
     checkClearButton();
 
 }
-
-
-
 
 
 
